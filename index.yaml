@@ -3,7 +3,7 @@ entries:
   postgresapp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-07T22:06:46.0882716+05:30"
+    created: "2024-05-07T22:18:51.996698+05:30"
     description: A Helm chart for Kubernetes
     digest: 6b737631ede7ffb9079e087c5dba5276970ca09700e7ccfc5ac53eeb3f47bd59
     name: postgresapp
@@ -14,7 +14,7 @@ entries:
   redisapp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-07T22:06:46.0888256+05:30"
+    created: "2024-05-07T22:18:52.0020859+05:30"
     description: A Helm chart for Kubernetes
     digest: 16388c4bb7f2534615fae11b8f6736c85a0e4dd3f3a953ba3f2af282cc86f875
     name: redisapp
@@ -25,7 +25,7 @@ entries:
   resultapp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-07T22:06:46.0893812+05:30"
+    created: "2024-05-07T22:18:52.0069739+05:30"
     description: A Helm chart for Kubernetes
     digest: 0299204581033c97d3fa0de4af3424891c77b604894a24f935455ab7aa721bce
     name: resultapp
@@ -33,10 +33,38 @@ entries:
     urls:
     - https://aravindjordank8s.github.io/TrainingVoteApp/resultapp-1.0.0.tgz
     version: 1.0.0
+  voteapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-07T22:18:52.0134861+05:30"
+    dependencies:
+    - alias: postgresapp
+      name: postgresapp
+      repository: https://aravindjordank8s.github.io/TrainingVoteApp/
+      version: 1.0.0
+    - alias: redisapp
+      name: redisapp
+      repository: https://aravindjordank8s.github.io/TrainingVoteApp/
+      version: 1.0.0
+    - alias: workerapp
+      name: workerapp
+      repository: https://aravindjordank8s.github.io/TrainingVoteApp/
+      version: 1.0.0
+    - alias: resultapp
+      name: resultapp
+      repository: https://aravindjordank8s.github.io/TrainingVoteApp/
+      version: 1.0.0
+    description: A Helm chart for Kubernetes
+    digest: 60e6e9e70d8320f686da397a3a127344aa0063b161a257a8ec02f1abc08e7dc5
+    name: voteapp
+    type: application
+    urls:
+    - https://aravindjordank8s.github.io/TrainingVoteApp/voteapp-1.0.0.tgz
+    version: 1.0.0
   workerapp:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-05-07T22:06:46.0893812+05:30"
+    created: "2024-05-07T22:18:52.0176762+05:30"
     description: A Helm chart for Kubernetes
     digest: fe92278e5469a2097753083889891320b3d67c13ab0f5a40c078560241c6f549
     name: workerapp
@@ -44,4 +72,4 @@ entries:
     urls:
     - https://aravindjordank8s.github.io/TrainingVoteApp/workerapp-1.0.0.tgz
     version: 1.0.0
-generated: "2024-05-07T22:06:46.0877156+05:30"
+generated: "2024-05-07T22:18:51.9916047+05:30"
