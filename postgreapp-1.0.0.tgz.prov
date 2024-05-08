@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.0.0
+description: A Helm chart for Kubernetes
+name: postgreapp
+type: application
+version: 1.0.0
+
+...
+files:
+  postgreapp-1.0.0.tgz: sha256:e7685da368ce990809aef8d2e6c4cac5c429cbb76c47f269ac524988d1f34965
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJmOx2XCRBjkwqtuZJ7VwAA1swMAFdye6QNAK+ynoqs07B51RYO
+EsKOz5KiqCa4rBvaoOfwoJxZkBe0YtiyVuLq/GIIEacIEzD0Ch+aPD41zHAtuhUG
+NOPhERWS+Np5uodRQUOpdQczg/YpOvklVc03EYRjIiOgBFaLMfXxidrk2qOSwF61
+qvcGQ8DUifeAsqlJZQ8rg4dgQ0uypJjMCtXygR4nojsdysOsutRcCityUQzYmTFm
+lh2Qk1WC18cUbbBsKvEe4KIOkdc3tSwD16d2dVnwMKmhGWtbmPI720zhExGyB2nj
+LrCCDcEnb9q09+MySImfmg82iJ4NDHY80e8O2qPjagZWdTETni5gucMcVoNC+TQ7
+zFbUBz2TqvEPcTm2EFdxCYQpsNwYgBGZW77qh8nRswO/JbmQdvIQvAUa2YiyDdU4
+nBWv1KkrfDyBHgcmrm0GJ1cg+F5fF5FUxjOR2MyABHRRHMsjwRnzhqFj44cDEBtS
+/sWMt+UIyQ9E3mNXbLRZ+bOp+CinHGlz3b8zyTHl7g==
+=7aem
+-----END PGP SIGNATURE-----

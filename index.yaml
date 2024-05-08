@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  postgreapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-08T12:10:41.7265514+05:30"
+    description: A Helm chart for Kubernetes
+    digest: e7685da368ce990809aef8d2e6c4cac5c429cbb76c47f269ac524988d1f34965
+    name: postgreapp
+    type: application
+    urls:
+    - https://aravindjordank8s.github.io/TrainingVoteApp/postgreapp-1.0.0.tgz
+    version: 1.0.0
+  redisapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-08T12:10:41.7275505+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 0c1db286a1b774b8111dc7b8276be34a0780d7a6c28b1a8b7e75545781c3fb2a
+    name: redisapp
+    type: application
+    urls:
+    - https://aravindjordank8s.github.io/TrainingVoteApp/redisapp-1.0.0.tgz
+    version: 1.0.0
+  resultapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-08T12:10:41.728549+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 4f71a512530654541943dda750e5ddb8f3d86e6af0237c9a4322866ef67a5792
+    name: resultapp
+    type: application
+    urls:
+    - https://aravindjordank8s.github.io/TrainingVoteApp/resultapp-1.0.0.tgz
+    version: 1.0.0
+  workerapp:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-08T12:10:41.7291328+05:30"
+    description: A Helm chart for Kubernetes
+    digest: ed507074584ab31d8cc6d070bc149eb562206ad36b5405a58b84d23ecc087ec6
+    name: workerapp
+    type: application
+    urls:
+    - https://aravindjordank8s.github.io/TrainingVoteApp/workerapp-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-05-08T12:10:41.7255557+05:30"
