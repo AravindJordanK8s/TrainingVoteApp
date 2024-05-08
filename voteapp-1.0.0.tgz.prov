@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.0.0
+dependencies:
+- - alias: postgresapp
+  name: postgresapp
+  repository: https://aravindjordank8s.github.io/VotingAppCloudHelmCharts/
+  version: 1.0.0
+- - alias: redisapp
+  name: redisapp
+  repository: https://aravindjordank8s.github.io/VotingAppCloudHelmCharts/
+  version: 1.0.0
+- - alias: workerapp
+  name: workerapp
+  repository: https://aravindjordank8s.github.io/VotingAppCloudHelmCharts/
+  version: 1.0.0
+- - alias: resultapp
+  name: resultapp
+  repository: https://aravindjordank8s.github.io/VotingAppCloudHelmCharts/
+  version: 1.0.0
+description: A Helm chart for Kubernetes
+name: voteapp
+type: application
+version: 1.0.0
+
+...
+files:
+  voteapp-1.0.0.tgz: sha256:caa20c9ca92ae40f5d722a56da1dea715bfa2f7a86a919b779a8b199f377e089
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJmOySYCRBjkwqtuZJ7VwAANMAMANJbAQVRygIRuKiPKr2CWsk7
+ZkoxyXunP0uGU+kHtrcJ3pKmaR0OBhLrzWqbrs1RbvAWrZXPHzhf7697mUYF3KEC
+ETGX+fuGMhzR2zKb8KNXFC69cFMIKewbbVy66aAKLLwhxxZGYpSjMHrNzR8gcrNs
+RUAUhHRX8UUHXtnQyy9T2vsFqmcIBDVit1TZTLe643w5eq/wu/ZPk65Ve0Hvefa7
+h6iyIYEjbTDYQSyHm+tRfxjXCnw5c83QS23GXW+fiXU9jddeFYCWB/ZOoZUBCziT
+mbDvNPoMB4IZFEqTHJOViupoAAkLaAFQE1T62kITQ0Vb6+5BRmvmWdtz4y2WZLWL
+dk7kD6yjWVDdNmR1iHuAf5IRDIwFIOnQ595KVAIETF1oJl0kxcT1Kn+/DCtLe11j
+4cNhnpBzraN13IQszkii0friZrfWh+AMRwTGJh/D0re/+yMosYiLEDzMFcjFojCP
+bN1I/OLUI4oBkY3tp7KY1yqbuO0xRadW+gKVlvvKuQ==
+=FCSU
+-----END PGP SIGNATURE-----
